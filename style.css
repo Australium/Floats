@@ -47,3 +47,7 @@ body {
     padding: 75px 0px 75px 50px;
     overflow: hidden;
 }
+
+.first , .second {
+    margin-right: 50px;
+}
