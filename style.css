@@ -6,6 +6,7 @@ body {
     background-color: grey;
     overflow: hidden;
     padding: 30px;
+    margin-bottom: 50px;
 }
 
 .box-one {
@@ -20,4 +21,29 @@ body {
     width: 300px;
     height: 300px;
     float: right;
+}
+
+.box-new {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 50px;
+}
+
+.margin {
+    margin-right: 0;
+}
+
+.fix {
+    overflow: visible;
+}
+
+.clearfix {
+    clear:both
+}
+
+.wrap {
+    padding: 75px 0px 75px 50px;
+    overflow: hidden;
 }
