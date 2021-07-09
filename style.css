@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -11,22 +15,22 @@ body {
 
 .box-one {
     background-color: red;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
 }
 
 .box-two {
     background-color: black;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: right;
 }
 
 .box-new {
     background-color: black;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     float: right;
     margin-right: 50px;
 }
@@ -44,10 +48,36 @@ body {
 }
 
 .wrap {
-    padding: 75px 0px 75px 50px;
+    padding: 50px 0px 50px 50px;
     overflow: hidden;
 }
 
 .first , .second {
     margin-right: 50px;
+}
+
+.wrapper {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.big {
+    width: 500px;
+    height: 500px;
+}
+
+.small {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.lower {
+    margin-bottom: 0;
+}
+
+.block {
+    overflow: hidden;
+    margin-right: 150px;
 }
