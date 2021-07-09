@@ -84,7 +84,7 @@ body {
 
 .right {
     margin-right: 0;
-    padding: 0px 0px 0px 150px;
+    padding: 0px 0px 0px 300px;
 }
 
 .bigger {
@@ -103,5 +103,5 @@ body {
 }
 
 .side {
-    margin-right: 200px;
+    margin-right: 50px;
 }
